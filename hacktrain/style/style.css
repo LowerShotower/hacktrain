@@ -1,0 +1,125 @@
+body {
+  text-align: center; }
+
+svg .train1 {
+  animation: bounceY 0.9s  infinite linear; }
+
+svg .mountains1 {
+  animation: moveRight  30s linear, moveRightLoop 40s 30s  infinite linear; }
+
+svg .cloud1 {
+  animation: moveRight 40s linear, moveRightLoop 40s infinite linear;
+  animation-fill-mode: forwards; }
+
+svg .cloud1 {
+  animation-delay: 0s, 40s; }
+
+svg .cloud2 {
+  animation: moveRight 25s linear, moveRightLoop 25s infinite linear;
+  animation-fill-mode: forwards; }
+
+svg .cloud2 {
+  animation-delay: 0s, 25s; }
+
+svg .cloud3 {
+  animation: moveRight 70s linear, moveRightLoop 70s infinite linear;
+  animation-fill-mode: forwards; }
+
+svg .cloud3 {
+  animation-delay: 0s, 70s; }
+
+svg .cloud4 {
+  animation: moveRight 45s linear, moveRightLoop 45s infinite linear;
+  animation-fill-mode: forwards; }
+
+svg .cloud4 {
+  animation-delay: 0s, 45s; }
+
+svg .backTree1 {
+  animation: moveRight 2.5s linear, moveRightLoop 5s 2.5s  infinite linear; }
+
+svg .middleTree1 {
+  animation: moveRight 2.4s linear, moveRightLoop 4.8s 2.4s  infinite linear; }
+
+svg .frontTree1 {
+  animation: moveRight 0.5s linear, frontMoveRightLoop 1.8s 0.5s infinite linear; }
+
+svg .frontTree2 {
+  animation: moveRight 0.5s linear, frontMoveRightLoop 1.8s 0.6s  infinite linear;
+  animation-fill-mode: forwards; }
+
+svg .gr1 {
+  animation: moveRight 4s linear, moveRightLoop 4s infinite linear;
+  animation-fill-mode: forwards; }
+
+svg .gr1 {
+  animation-delay: 0s, 4s; }
+
+svg .gr2 {
+  animation: moveRight 5s linear, moveRightLoop 5s infinite linear;
+  animation-fill-mode: forwards; }
+
+svg .gr2 {
+  animation-delay: 0s, 5s; }
+
+svg .gr3 {
+  animation: moveRight 6.4s linear, moveRightLoop 6.4s infinite linear;
+  animation-fill-mode: forwards; }
+
+svg .gr3 {
+  animation-delay: 0s, 6.4s; }
+
+svg .gr4 {
+  animation: moveRight 3.6s linear, moveRightLoop 3.6s infinite linear;
+  animation-fill-mode: forwards; }
+
+svg .gr4 {
+  animation-delay: 0s, 3.6s; }
+
+svg .gr5 {
+  animation: moveRight 3.5s linear, moveRightLoop 3.5s infinite linear;
+  animation-fill-mode: forwards; }
+
+svg .gr5 {
+  animation-delay: 0s, 3.5s; }
+
+svg .gr6 {
+  animation: moveRight 5.2s linear, moveRightLoop 5.2s infinite linear;
+  animation-fill-mode: forwards; }
+
+svg .gr6 {
+  animation-delay: 0s, 5.2s; }
+
+svg .gr7 {
+  animation: moveRight 6s linear, moveRightLoop 6s infinite linear;
+  animation-fill-mode: forwards; }
+
+svg .gr7 {
+  animation-delay: 0s, 6s; }
+
+body {
+  background: black; }
+
+@keyframes bounceY {
+  0%, 100% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(2px); } }
+
+@keyframes moveRightLoop {
+  100% {
+    transform: translateX(100%); }
+  0% {
+    transform: translateX(-100%); } }
+
+@keyframes moveRight {
+  100% {
+    transform: translateX(100%); } }
+
+@keyframes frontMoveRightLoop {
+  100% {
+    transform: translateX(90%); }
+  0% {
+    transform: translateX(-90%); } }
+
+/*# sourceMappingURL=style.css.map*/
